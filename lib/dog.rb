@@ -1,6 +1,12 @@
 # Your code goes here!
-class Person
-  def initialize(name)
+class Dog 
+  def name= (name)
     @name = name
+  end
+  def name
+    return @name
+  end
+  def bark
+    puts "woof!"
   end
 end
